@@ -1,0 +1,7 @@
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\GraphGenerator.csproj.AssemblyReference.cache
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\GraphGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\GraphGenerator.AssemblyInfoInputs.cache
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\GraphGenerator.AssemblyInfo.cs
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\GraphGenerator.csproj.CoreCompileInputs.cache
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\kikuchi1998\source\repos\GraphGenerator\GraphGenerator\obj\Debug\net5.0\GraphGenerator.csproj.ResolveComReference.cache

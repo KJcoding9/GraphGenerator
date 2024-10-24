@@ -1,0 +1,114 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GraphGenerator/1.0.0": {
+        "dependencies": {
+          "NetOfficeFw.Excel": "1.9.3"
+        },
+        "runtime": {
+          "GraphGenerator.dll": {}
+        }
+      },
+      "NetOfficeFw.Core/1.9.3": {
+        "runtime": {
+          "lib/net462/NetOffice.dll": {
+            "assemblyVersion": "1.9.3.0",
+            "fileVersion": "1.9.3.0"
+          }
+        }
+      },
+      "NetOfficeFw.Excel/1.9.3": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "NetOfficeFw.Office": "1.9.3",
+          "NetOfficeFw.VBIDE": "1.9.3"
+        },
+        "runtime": {
+          "lib/net462/ExcelApi.dll": {
+            "assemblyVersion": "1.9.3.0",
+            "fileVersion": "1.9.3.0"
+          }
+        }
+      },
+      "NetOfficeFw.Office/1.9.3": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "stdole": "7.0.3300"
+        },
+        "runtime": {
+          "lib/net462/OfficeApi.dll": {
+            "assemblyVersion": "1.9.3.0",
+            "fileVersion": "1.9.3.0"
+          }
+        }
+      },
+      "NetOfficeFw.VBIDE/1.9.3": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "NetOfficeFw.Office": "1.9.3"
+        },
+        "runtime": {
+          "lib/net462/VBIDEApi.dll": {
+            "assemblyVersion": "1.9.3.0",
+            "fileVersion": "1.9.3.0"
+          }
+        }
+      },
+      "stdole/7.0.3300": {
+        "runtime": {
+          "lib/net10/stdole.dll": {
+            "assemblyVersion": "7.0.3300.0",
+            "fileVersion": "7.0.9466.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GraphGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetOfficeFw.Core/1.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xIs6gypCSW27eAedtPVZx/CS2NS+jdgKuiSJj7gSNYMESxi1R+OU1eFIwWQ48/dmXwu0td2wudTmLvP+ZvSBPA==",
+      "path": "netofficefw.core/1.9.3",
+      "hashPath": "netofficefw.core.1.9.3.nupkg.sha512"
+    },
+    "NetOfficeFw.Excel/1.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MwNunPfJgI1FaqPR/z4y/mA3zRMaX55CkQah82AR92KGaxhJMPCd+r+GZdmm5zhhuz6hZB8eoLXd/ZqT45HAqA==",
+      "path": "netofficefw.excel/1.9.3",
+      "hashPath": "netofficefw.excel.1.9.3.nupkg.sha512"
+    },
+    "NetOfficeFw.Office/1.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X75Xvobh2qBXZxr55SlKT0BAJTgONaxjfNAUhDgb4ryNM055dl1p36qnXGlpU/udwnjcBN5r3aVbbg40Zv3e6g==",
+      "path": "netofficefw.office/1.9.3",
+      "hashPath": "netofficefw.office.1.9.3.nupkg.sha512"
+    },
+    "NetOfficeFw.VBIDE/1.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e7DAIUg5puWe8QLV+QoqoyLrBRZ3HFC5452bCRcMhK71DR89edWD7O0ia7DoYV7KplzjhfksdbQns8LxONnO9Q==",
+      "path": "netofficefw.vbide/1.9.3",
+      "hashPath": "netofficefw.vbide.1.9.3.nupkg.sha512"
+    },
+    "stdole/7.0.3300": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p9WhjNp/gM2z80u+xNA1XXFek57iybUUJaDnQooKfdct3vGIpmDzLdL7Rq4ZmFzZc3LN3SFs5bRIE7j/+gLn5Q==",
+      "path": "stdole/7.0.3300",
+      "hashPath": "stdole.7.0.3300.nupkg.sha512"
+    }
+  }
+}

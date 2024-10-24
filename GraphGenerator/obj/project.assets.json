@@ -1,0 +1,324 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8.1": {
+      "NetOfficeFw.Core/1.9.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net462/NetOffice.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/NetOffice.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.Excel/1.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "NetOfficeFw.Office": "1.9.3",
+          "NetOfficeFw.VBIDE": "1.9.3"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net462/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.Office/1.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "stdole": "7.0.3300"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net462/OfficeApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/OfficeApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.VBIDE/1.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "NetOfficeFw.Office": "1.9.3"
+        },
+        "compile": {
+          "lib/net462/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "stdole/7.0.3300": {
+        "type": "package",
+        "compile": {
+          "lib/net10/stdole.dll": {}
+        },
+        "runtime": {
+          "lib/net10/stdole.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win7-x86": {
+      "NetOfficeFw.Core/1.9.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net462/NetOffice.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/NetOffice.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.Excel/1.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "NetOfficeFw.Office": "1.9.3",
+          "NetOfficeFw.VBIDE": "1.9.3"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net462/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ExcelApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.Office/1.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "stdole": "7.0.3300"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net462/OfficeApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/OfficeApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.VBIDE/1.9.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.3",
+          "NetOfficeFw.Office": "1.9.3"
+        },
+        "compile": {
+          "lib/net462/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "stdole/7.0.3300": {
+        "type": "package",
+        "compile": {
+          "lib/net10/stdole.dll": {}
+        },
+        "runtime": {
+          "lib/net10/stdole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetOfficeFw.Core/1.9.3": {
+      "sha512": "xIs6gypCSW27eAedtPVZx/CS2NS+jdgKuiSJj7gSNYMESxi1R+OU1eFIwWQ48/dmXwu0td2wudTmLvP+ZvSBPA==",
+      "type": "package",
+      "path": "netofficefw.core/1.9.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/NetOffice.dll",
+        "lib/net462/NetOffice.xml",
+        "netofficefw.core.1.9.3.nupkg.sha512",
+        "netofficefw.core.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOfficeFw.Excel/1.9.3": {
+      "sha512": "MwNunPfJgI1FaqPR/z4y/mA3zRMaX55CkQah82AR92KGaxhJMPCd+r+GZdmm5zhhuz6hZB8eoLXd/ZqT45HAqA==",
+      "type": "package",
+      "path": "netofficefw.excel/1.9.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/ExcelApi.dll",
+        "lib/net462/ExcelApi.xml",
+        "netofficefw.excel.1.9.3.nupkg.sha512",
+        "netofficefw.excel.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOfficeFw.Office/1.9.3": {
+      "sha512": "X75Xvobh2qBXZxr55SlKT0BAJTgONaxjfNAUhDgb4ryNM055dl1p36qnXGlpU/udwnjcBN5r3aVbbg40Zv3e6g==",
+      "type": "package",
+      "path": "netofficefw.office/1.9.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/OfficeApi.dll",
+        "lib/net462/OfficeApi.xml",
+        "netofficefw.office.1.9.3.nupkg.sha512",
+        "netofficefw.office.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOfficeFw.VBIDE/1.9.3": {
+      "sha512": "e7DAIUg5puWe8QLV+QoqoyLrBRZ3HFC5452bCRcMhK71DR89edWD7O0ia7DoYV7KplzjhfksdbQns8LxONnO9Q==",
+      "type": "package",
+      "path": "netofficefw.vbide/1.9.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon.png",
+        "lib/net462/VBIDEApi.dll",
+        "lib/net462/VBIDEApi.xml",
+        "netofficefw.vbide.1.9.3.nupkg.sha512",
+        "netofficefw.vbide.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "stdole/7.0.3300": {
+      "sha512": "p9WhjNp/gM2z80u+xNA1XXFek57iybUUJaDnQooKfdct3vGIpmDzLdL7Rq4ZmFzZc3LN3SFs5bRIE7j/+gLn5Q==",
+      "type": "package",
+      "path": "stdole/7.0.3300",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10/stdole.dll",
+        "stdole.7.0.3300.nupkg.sha512",
+        "stdole.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8.1": [
+      "NetOfficeFw.Excel >= 1.9.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kikuchi1998\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kikuchi1998\\Desktop\\GraphGenerator\\GraphGenerator\\GraphGenerator.csproj",
+      "projectName": "GraphGenerator",
+      "projectPath": "C:\\Users\\kikuchi1998\\Desktop\\GraphGenerator\\GraphGenerator\\GraphGenerator.csproj",
+      "packagesPath": "C:\\Users\\kikuchi1998\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kikuchi1998\\Desktop\\GraphGenerator\\GraphGenerator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kikuchi1998\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net4.8.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net481": {
+          "targetAlias": "net4.8.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net481": {
+        "targetAlias": "net4.8.1",
+        "dependencies": {
+          "NetOfficeFw.Excel": {
+            "target": "Package",
+            "version": "[1.9.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

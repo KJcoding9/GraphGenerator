@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "6w3o3lzg6/Nl56Yo+6g5bJSjkmm/a/RbgAimWJWfucIynsg0QO26rUxxGoH1dV3ZKR7F+JkWJZZcT80p3uJo5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kikuchi1998\\Desktop\\GraphGenerator\\GraphGenerator\\GraphGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kikuchi1998\\.nuget\\packages\\netofficefw.core\\1.9.3\\netofficefw.core.1.9.3.nupkg.sha512",
+    "C:\\Users\\kikuchi1998\\.nuget\\packages\\netofficefw.excel\\1.9.3\\netofficefw.excel.1.9.3.nupkg.sha512",
+    "C:\\Users\\kikuchi1998\\.nuget\\packages\\netofficefw.office\\1.9.3\\netofficefw.office.1.9.3.nupkg.sha512",
+    "C:\\Users\\kikuchi1998\\.nuget\\packages\\netofficefw.vbide\\1.9.3\\netofficefw.vbide.1.9.3.nupkg.sha512",
+    "C:\\Users\\kikuchi1998\\.nuget\\packages\\stdole\\7.0.3300\\stdole.7.0.3300.nupkg.sha512"
+  ],
+  "logs": []
+}
